@@ -8,16 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		CD4122D51BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4122D41BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC21FCB1BDE59AD00930F35 /* SchemeDiscoverySampleForCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4122D41BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD4122D11BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SchemeDiscoverySampleForCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4122D41BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchemeDiscoverySampleForCarthage.h; sourceTree = "<group>"; };
 		CD4122D61BC18CAD00639280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC21FC31BDE502800930F35 /* SchemeDiscoverySampleForCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SchemeDiscoverySampleForCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CD4122CD1BC18CAD00639280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC21FBF1BDE502800930F35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				CD4122D11BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.framework */,
+				CDC21FC31BDE502800930F35 /* SchemeDiscoverySampleForCarthage.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,12 +73,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDC21FC01BDE502800930F35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC21FCB1BDE59AD00930F35 /* SchemeDiscoverySampleForCarthage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CD4122D01BC18CAD00639280 /* SchemeDiscoverySampleForCarthage */ = {
+		CD4122D01BC18CAD00639280 /* SchemeDiscoverySampleForCarthage-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD4122D91BC18CAD00639280 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage" */;
+			buildConfigurationList = CD4122D91BC18CAD00639280 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage-iOS" */;
 			buildPhases = (
 				CD4122CC1BC18CAD00639280 /* Sources */,
 				CD4122CD1BC18CAD00639280 /* Frameworks */,
@@ -79,9 +97,27 @@
 			);
 			dependencies = (
 			);
-			name = SchemeDiscoverySampleForCarthage;
+			name = "SchemeDiscoverySampleForCarthage-iOS";
 			productName = SchemeDiscoverySampleForCarthage;
 			productReference = CD4122D11BC18CAD00639280 /* SchemeDiscoverySampleForCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDC21FC21BDE502800930F35 /* SchemeDiscoverySampleForCarthage-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC21FCA1BDE502800930F35 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage-Mac" */;
+			buildPhases = (
+				CDC21FBE1BDE502800930F35 /* Sources */,
+				CDC21FBF1BDE502800930F35 /* Frameworks */,
+				CDC21FC01BDE502800930F35 /* Headers */,
+				CDC21FC11BDE502800930F35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SchemeDiscoverySampleForCarthage-Mac";
+			productName = "SchemeDiscoverySampleForCarthage-Mac";
+			productReference = CDC21FC31BDE502800930F35 /* SchemeDiscoverySampleForCarthage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -95,6 +131,9 @@
 				TargetAttributes = {
 					CD4122D01BC18CAD00639280 = {
 						CreatedOnToolsVersion = 7.0.1;
+					};
+					CDC21FC21BDE502800930F35 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
@@ -110,7 +149,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD4122D01BC18CAD00639280 /* SchemeDiscoverySampleForCarthage */,
+				CD4122D01BC18CAD00639280 /* SchemeDiscoverySampleForCarthage-iOS */,
+				CDC21FC21BDE502800930F35 /* SchemeDiscoverySampleForCarthage-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -123,10 +163,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDC21FC11BDE502800930F35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD4122CC1BC18CAD00639280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC21FBE1BDE502800930F35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,7 +207,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -174,10 +227,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -200,7 +253,6 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -215,9 +267,9 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -227,6 +279,7 @@
 		CD4122DA1BC18CAD00639280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -235,14 +288,16 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ikesyo.SchemeDiscoverySampleForCarthage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		CD4122DB1BC18CAD00639280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -251,7 +306,46 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ikesyo.SchemeDiscoverySampleForCarthage;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDC21FC81BDE502800930F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SchemeDiscoverySampleForCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikesyo.SchemeDiscoverySampleForCarthage;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CDC21FC91BDE502800930F35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SchemeDiscoverySampleForCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikesyo.SchemeDiscoverySampleForCarthage;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -268,11 +362,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD4122D91BC18CAD00639280 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage" */ = {
+		CD4122D91BC18CAD00639280 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD4122DA1BC18CAD00639280 /* Debug */,
 				CD4122DB1BC18CAD00639280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC21FCA1BDE502800930F35 /* Build configuration list for PBXNativeTarget "SchemeDiscoverySampleForCarthage-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC21FC81BDE502800930F35 /* Debug */,
+				CDC21FC91BDE502800930F35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

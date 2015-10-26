@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CD4122D01BC18CAD00639280"
                BuildableName = "SchemeDiscoverySampleForCarthage.framework"
-               BlueprintName = "SchemeDiscoverySampleForCarthage"
+               BlueprintName = "SchemeDiscoverySampleForCarthage-iOS"
                ReferencedContainer = "container:SchemeDiscoverySampleForCarthage.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD4122D01BC18CAD00639280"
             BuildableName = "SchemeDiscoverySampleForCarthage.framework"
-            BlueprintName = "SchemeDiscoverySampleForCarthage"
+            BlueprintName = "SchemeDiscoverySampleForCarthage-iOS"
             ReferencedContainer = "container:SchemeDiscoverySampleForCarthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CD4122D01BC18CAD00639280"
             BuildableName = "SchemeDiscoverySampleForCarthage.framework"
-            BlueprintName = "SchemeDiscoverySampleForCarthage"
+            BlueprintName = "SchemeDiscoverySampleForCarthage-iOS"
             ReferencedContainer = "container:SchemeDiscoverySampleForCarthage.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
